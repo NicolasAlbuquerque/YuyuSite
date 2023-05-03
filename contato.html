@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <nav class="logo">
+            
+            <ul>
+                <li><a href="index.html"> <img id="home" src="assets/yuyuHakusho/Yū_Yū_Hakusho_logo.svg.png"Logo"></a></li>
+                <li><a href="anime.html">Anime</a> </li>
+                <li><a href="manga.html">Mangá</a> </li>
+                <li><a href="personagens.html">Personagens</a> </li>
+                <li><a href="contato.html">Contato</a> </li>
+            </ul>
+        </nav>
+    </header>
+<br>
+<br>
+    <main >
+        <section >
+            <div class="bannerBotam">  
+                    <img class="imgs" id="botam" src="assets/yuyuHakusho/botam-01.png" alt="bota">
+                    <div id="Forms">
+                        
+    <br>
+                        <form>
+                            <p style="text-align: center;">Entre em contato Comigo</p>
+                            <br>
+                            <label for="nome">Nome:</label><br>
+                            <input class="bordas" type="text" cols="30" id="nome" onkeyup="validaNome()">
+                            <div id="txtNome"></div>
+                            <br>
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" class="bordas" id="email" onkeyup="validaEmail()" >
+                            <div id="txtEmail"></div>
+<br>                          
+                            <label for="assunto">Mensagem </label><br>
+                            <textarea  name="assunto" class="bordas" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()">
+                            </textarea>
+                            <div id="txtAssunto"></div>
+                            
+                            <br>  <br>
+                            <button onclick="enviar()">Enviar</button>
+                        </form>
+                    </div>
+            </div>
+    </main>    
+<br>
+<br>
+<br>
+<br> 
+<br>       
+<section>
+    <div class="end">   <h2 >Endereço: </h2> <br>   
+        <iframe  id= 'mapa'class="local" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.06081312511!2d139.56414625080697!3d35.70012108009266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018efb4f8534a07%3A0xf3489efe9f1eec8b!2sPierrot%20Co.%2CLtd.!5e0!3m2!1sen!2sus!4v1680949895978!5m2!1sen!2sus" width="80%" style="border:0.5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe></div>
+</section>
+
+<br>
+<br>
+<br>
+
+<footer class="rodape">
+    <p>Todos os Direitos Reservados Yu Yu Hakusho &copy </p>
+<script src="assets/JS/script.js">
+</script>
+</body>
+</html>
